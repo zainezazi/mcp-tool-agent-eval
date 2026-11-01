@@ -1,0 +1,24 @@
+{"id": "en-track-1", "lang": "en", "message": "Where is my order NK-1001?", "tool": "track_order", "arguments": {"order_id": "NK-1001"}}
+{"id": "en-track-2", "lang": "en", "message": "status of nk 1003 please", "tool": "track_order", "arguments": {"order_id": "NK-1003"}}
+{"id": "en-track-3", "lang": "en", "message": "When will my order arrive?", "tool": null}
+{"id": "en-track-4", "lang": "en", "message": "Track NK-9999", "tool": "track_order", "arguments": {"order_id": "NK-9999"}, "expect_error": true}
+{"id": "en-branch-1", "lang": "en", "message": "Do you have a branch in Jeddah?", "tool": "list_branches", "arguments": {"city": "jeddah"}}
+{"id": "en-branch-2", "lang": "en", "message": "What are your opening hours in Riyadh?", "tool": "list_branches", "arguments": {"city": "riyadh"}}
+{"id": "en-branch-3", "lang": "en", "message": "Is the store open late?", "tool": null}
+{"id": "en-return-1", "lang": "en", "message": "I want to return NK-1002 because the cups arrived chipped", "tool": "create_return", "arguments": {"order_id": "NK-1002", "reason": "the cups arrived chipped"}}
+{"id": "en-return-2", "lang": "en", "message": "I want a refund", "tool": null}
+{"id": "en-return-3", "lang": "en", "message": "Return NK-1001 because I changed my mind", "tool": "create_return", "arguments": {"order_id": "NK-1001", "reason": "I changed my mind"}, "expect_error": true}
+{"id": "en-return-4", "lang": "en", "message": "Can I return NK-1002?", "tool": null}
+{"id": "en-oos-1", "lang": "en", "message": "Write me a poem about the sea", "tool": null}
+{"id": "en-oos-2", "lang": "en", "message": "Don't return anything, just tell me if NK-1004 was cancelled", "tool": "track_order", "arguments": {"order_id": "NK-1004"}}
+{"id": "ar-track-1", "lang": "ar-SA", "message": "وين طلبي NK-1001؟", "tool": "track_order", "arguments": {"order_id": "NK-1001"}}
+{"id": "ar-track-2", "lang": "ar-SA", "message": "متى بيوصل الطلب NK-١٠٠٣", "tool": "track_order", "arguments": {"order_id": "NK-1003"}}
+{"id": "ar-track-3", "lang": "ar-SA", "message": "وين طلبي؟ صار له اسبوع", "tool": null}
+{"id": "ar-track-4", "lang": "ar-SA", "message": "ابي اعرف حالة الطلب رقم 1002", "tool": "track_order", "arguments": {"order_id": "NK-1002"}}
+{"id": "ar-branch-1", "lang": "ar-SA", "message": "عندكم فرع في جدة؟", "tool": "list_branches", "arguments": {"city": "جدة"}}
+{"id": "ar-branch-2", "lang": "ar-SA", "message": "متى تفتحون في الرياض", "tool": "list_branches", "arguments": {"city": "الرياض"}}
+{"id": "ar-branch-3", "lang": "ar-SA", "message": "الدوام كم الساعة؟", "tool": null}
+{"id": "ar-return-1", "lang": "ar-SA", "message": "ابغى ارجع الطلب NK-1002 عشان المقاس غلط", "tool": "create_return", "arguments": {"order_id": "NK-1002", "reason": "المقاس غلط"}}
+{"id": "ar-return-2", "lang": "ar-SA", "message": "ابي استرجاع فلوسي", "tool": null}
+{"id": "ar-return-3", "lang": "ar-SA", "message": "ابغى ارجع NK-1003 لان ما عجبني", "tool": "create_return", "arguments": {"order_id": "NK-1003", "reason": "ما عجبني"}, "expect_error": true}
+{"id": "ar-oos-1", "lang": "ar-SA", "message": "كيف الجو اليوم في جدة؟", "tool": null}

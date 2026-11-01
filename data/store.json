@@ -1,0 +1,15 @@
+{
+  "orders": {
+    "NK-1001": {"status": "out_for_delivery", "city": "Jeddah", "eta": "2026-11-02", "items": ["Dates gift box"]},
+    "NK-1002": {"status": "delivered", "city": "Riyadh", "eta": "2026-10-28", "items": ["Arabic coffee set"]},
+    "NK-1003": {"status": "processing", "city": "Dammam", "eta": "2026-11-05", "items": ["Oud perfume"]},
+    "NK-1004": {"status": "cancelled", "city": "Jeddah", "eta": null, "items": ["Prayer mat"]}
+  },
+  "branches": [
+    {"id": "JED-01", "city": "Jeddah", "name": "Tahlia Street", "open": "09:00", "close": "23:00"},
+    {"id": "JED-02", "city": "Jeddah", "name": "Corniche", "open": "10:00", "close": "00:00"},
+    {"id": "RUH-01", "city": "Riyadh", "name": "Olaya", "open": "09:00", "close": "23:00"},
+    {"id": "DMM-01", "city": "Dammam", "name": "King Saud Road", "open": "09:00", "close": "22:00"}
+  ],
+  "return_window_days": 14
+}
